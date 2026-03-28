@@ -2,47 +2,45 @@
 <html>
 <head>
     <title>Campus Lost & Found - Map</title>
-
-    <!-- Google Fonts for the webpage -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <!-- Header -->
-    <div>
-        <!-- Logo -->
-        <img src="images/logo.png.png" alt="Campus Lost & Found Logo" width="150">
+    <div class="header">
 
-        <h1>Campus Lost & Found</h1>
+        <div class="nav">
+            <img src="images/logo.png.png" alt="Campus Lost & Found Logo" width="80">
 
-        <a href="#">Home</a> |
-        <a href="#">Map</a> |
-        <a href="#">Recent Items</a>
+            <h1>Campus Lost & Found</h1>
+
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">Map</a>
+                <a href="#">Recent Items</a>
+            </div>
+        </div>
+
     </div>
 
     <hr>
 
-    <!-- Title Page -->
     <h2>Campus Map</h2>
 
-    <!-- The Search Bar -->
-    <div>
+    <div class="search">
         <input type="text" placeholder="Search for a building...">
         <button>Search</button>
     </div>
 
     <br>
 
-    <!-- This is the main content using Table (to place list on the right) -->
     <table border="1" width="100%">
         <tr>
-            <!-- Map Section (Left) -->
             <td width="70%">
-                <img src="images/Campus bldgs.png.png" alt="Campus bldgs" width="100%">
+                <img src="images/Campus bldgs.png.png" alt="Campus Map" width="100%">
             </td>
 
-            <!-- Building List (Right) -->
             <td width="30%">
                 <h3>Building List</h3>
                 <ul>
@@ -58,13 +56,11 @@
 
     <br>
 
-    <!-- Instruction Text -->
     <p>Select a building to view lost and found items.</p>
 
     <hr>
 
-    <!-- Footer -->
-    <div>
+    <div class="footer">
         <a href="#">Instructions</a> |
         <a href="#">Privacy Policy</a> |
         <a href="#">Terms of Service</a>
