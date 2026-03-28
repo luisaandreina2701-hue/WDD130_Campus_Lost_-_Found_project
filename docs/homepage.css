@@ -11,6 +11,10 @@ body {
     background-color: #E6F2F8;
 }
 
+.logo img{
+    width: 120px;
+}
+
 .title {
     font-size: 18px;
     font-weight: bold;
